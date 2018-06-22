@@ -1,0 +1,15 @@
+john_cool_guy@inbox.com : Who is that?
+jpn_rules@jpnmail.jp : That’s my friend, yumie2000@gmail.com . Hey, yumie2000@gmail.com , come here!
+yumie2000@gmail.com : Hi jpn_rules@jpnmail.jp .
+jpn_rules@jpnmail.jp : Hello. john_cool_guy@inbox.com , this is yumie2000@gmail.com . yumie2000@gmail.com, this is john_cool_guy@inbox.com .
+yumie2000@gmail.com : Nice to meet you.
+some empty row (to ignore by -l)
+john_cool_guy@inbox.com : Nice to meet you too. Where are you from?
+yumie2000@gmail.com : I’m from Hyogo prefecture. I’m from a little village. It’s called Nishiwaki. It’s in the mountains. Where are you from?
+row duplicates below (for -l -u combination test)
+john_cool_guy@inbox.com : I’m Australian. I’m from Sydney.
+john_cool_guy@inbox.com : I’m Australian. I’m from Sydney.
+yumie2000@gmail.com : Are you a student here?
+john_cool_guy@inbox.com : Yes, I am. I’m an overseas student.
+another empty row
+some emails: one@mail.com , two@mail.com , three@mail.com
