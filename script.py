@@ -31,6 +31,8 @@ def run(u, c, l, s, o, n, stat, regexp, file):
 			pattern = re.compile(regexp)
 
 		text = file.read()
+		file.close()
+		
 		result = pattern.findall(text)
 		counts = collections.Counter(result)
 		count = len(result)
